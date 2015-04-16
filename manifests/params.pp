@@ -48,7 +48,7 @@ class docker::params {
           $docker_command = 'docker.io'
         }
       }
-      $package_source_location     = 'https://get.docker.io/ubuntu'
+      $package_source_location     = 'https://get.docker.com/ubuntu'
       $use_upstream_package_source = true
       $detach_service_in_init = true
     }
